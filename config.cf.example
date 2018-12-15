@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Copy this file to config.cf and define the variables below.
+# There is a .gitignore for config.cf to avoid leaking 
+# private data back to github.
+# 
+# Can be defined in-line of cloudflareZoneRecord.sh if you
+# don't wish to mess with config files.
+
+# Required
+#EMAIL=""
+#ZONEID=""
+#GLOBAL_API_KEY=""
+
+# Optional but required for DynDNS update
+#DYNDNSRECORDID=""
+#DYNDNSRECORDNAME=""
+#DYNDNSRECORDTYPE=""
