@@ -3,7 +3,8 @@
 #Script Name    : cloudflareZoneRecord.sh
 #Description    : A quick and dirty shell script to view and 
 #               : manipulate cloudflare zone records
-#Args           : GETZONE,GETRECORD,SETRECORD,DYNDNSUPDATE
+#Args           : ADDRECORD,DELRECORD,GETRECORD,SETRECORD
+#               : GETZONE,DYNDNSUPDATE
 #Author         : Paul Komurka
 #Email          : pawlex@gmail.com
 ###################################################################
@@ -168,7 +169,7 @@ case "$1" in
         addRecord $2 $3 $4
     ;;
 
-    DELRECORD) if [ $# -lt 2 ]
+    DELRECORD) if [ $# -lt 1 ]
            then
                 echo
                 echo "  Usage  : $1 <id*>"
