@@ -25,6 +25,18 @@ Primary goal is to impliment a light-weight DYNDNS client with the ability to de
 ```
 **returns:** SUCCESS|FAILED
 
+### ADDRECORD
+```
+./cloudflareZoneRecord.sh ADDRECORD A www.mydomain.com 127.0.0.1
+```
+**returns:** SUCCESS|FAILED
+
+### DELRECORD
+```
+./cloudflareZoneRecord.sh DELRECORD 545832696a294e8d912334af31248
+```
+**returns:** SUCCESS|FAILED
+
 ### DYNDNSUPDATE
 ```
 ./cloudflareZoneRecord.sh DYNDNSUPDATE
@@ -32,8 +44,6 @@ Primary goal is to impliment a light-weight DYNDNS client with the ability to de
 **returns:** 
   - NO UPDATE NECESSARY | 
   - [UPDATE NECESSARY, PREVIOUS_IP -> CURRENT_IP]
-
-
 
 
 ## config.cf
