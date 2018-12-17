@@ -7,9 +7,16 @@ A quick and dirty shell script to view and manipulate cloudflare zone records
 * ZONEID - **primary zone id for the domain**
 * GLOBAL_API_KEY - **cloudflare api key**
 #### Optional
-* DYNDNSRECORDID - **record id for dynDns update**
-* DYNDNSRECORDNAME - **record name for dynDns update**
-* DYNDNSRECORDTYPE - **record type for dynDns update**
+* DYNDNSRECORDID - 
+
+record id for dynDns update
+* DYNDNSRECORDNAME - 
+
+record name for dynDns update
+
+* DYNDNSRECORDTYPE - 
+
+record type for dynDns update
 
 ## cloudflareZoneRecord.sh
 ### GETZONE
