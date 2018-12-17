@@ -43,5 +43,5 @@ A quick and dirty shell script to view and manipulate cloudflare zone records
 ```
 **returns:** 
   - NO UPDATE NECESSARY | 
-  - [UPDATE NECESSARY,$PREVIOUS_IP -> $CURRENT_IP]
+  - [UPDATE NECESSARY, PREVIOUS_IP -> CURRENT_IP]
 
