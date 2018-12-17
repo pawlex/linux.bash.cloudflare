@@ -12,7 +12,7 @@ A quick and dirty shell script to view and manipulate cloudflare zone records
 * DYNDNSRECORDNAME
   - record name for dynDns update
 * DYNDNSRECORDTYPE
-  -record type for dynDns update
+  - record type for dynDns update
 
 ## cloudflareZoneRecord.sh
 ### GETZONE
