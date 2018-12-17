@@ -41,5 +41,7 @@ A quick and dirty shell script to view and manipulate cloudflare zone records
 ```
 ./cloudflareZoneRecord.sh DYNDNSUPDATE
 ```
-**returns:** NO UPDATE NECESSARY| [UPDATE NECESSARY,$PREVIOUS_IP -> $CURRENT_IP]
+**returns:** 
+  - NO UPDATE NECESSARY | 
+  - [UPDATE NECESSARY,$PREVIOUS_IP -> $CURRENT_IP]
 
