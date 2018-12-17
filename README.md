@@ -13,6 +13,11 @@ A quick and dirty shell script to view and manipulate cloudflare zone records
 
 ## cloudflareZoneRecord.sh
 ### GETZONE
+```
+./cloudflareZoneRecord.sh GETZONE 
+```
+**returns**: JSON object for all objects in the zone
+
 ### GETRECORD
 ### SETRECORD
 ### DYNDNSUPDATE
