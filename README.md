@@ -2,7 +2,7 @@
 A quick and dirty shell script to view and manipulate cloudflare zone records
 ## config.cf
 ### Variables
-* EMAIL- email address associated with CloudFlare account
+* EMAIL - email address associated with CloudFlare account
 * ZONEID
 * GLOBAL_API_KEY
 
