@@ -16,8 +16,23 @@ A quick and dirty shell script to view and manipulate cloudflare zone records
 ```
 ./cloudflareZoneRecord.sh GETZONE 
 ```
-**returns**: JSON object for all objects in the zone
+**returns:** JSON object of entire zone record
 
 ### GETRECORD
+```
+./cloudflareZoneRecord.sh GETRECORD A www.mydomain.com
+```
+**returns:** JSON object of record within the defined zone
+
 ### SETRECORD
+```
+./cloudflareZoneRecord.sh SETRECORD 545832696a294e8d912334af31248 A www.mydomain.com 127.0.0.1
+```
+**returns:** SUCCESS|FAILED
+
 ### DYNDNSUPDATE
+```
+./cloudflareZoneRecord.sh DYNDNSUPDATE
+```
+**returns:** NO UPDATE NECESSARY|[UPDATE NECESSARY,$PREVIOUS_IP -> $CURRENT_IP]
+
