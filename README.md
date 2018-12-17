@@ -31,7 +31,7 @@ Primary goal is to impliment a light-weight DYNDNS client with the ability to de
 ```
 **returns:** SUCCESS|FAILED
 
-#### DELRECORD
+### DELRECORD
 ```
 ./cloudflareZoneRecord.sh DELRECORD 545832696a294e8d912334af31248
 ```
