@@ -5,23 +5,6 @@ Designed to be used on \*NIX systems with minimal support software installed (No
 
 Primary goal is to impliment a light-weight DYNDNS client with the ability to debug host/zone records.
 
-## config.cf
-### Variables
-#### Required
-* **EMAIL**
-  - email address associated with CloudFlare account
-* **ZONEID**
-  - primary zone id for the domain
-* **GLOBAL_API_KEY**
-  - cloudflare api key
-  
-#### Optional
-* **DYNDNSRECORDID**
-  - record id for dynDns update
-* **DYNDNSRECORDNAME**
-  - record name for dynDns update
-* **DYNDNSRECORDTYPE**
-  - record type for dynDns update
 
 ## cloudflareZoneRecord.sh
 ### GETZONE
@@ -50,3 +33,23 @@ Primary goal is to impliment a light-weight DYNDNS client with the ability to de
   - NO UPDATE NECESSARY | 
   - [UPDATE NECESSARY, PREVIOUS_IP -> CURRENT_IP]
 
+
+
+
+## config.cf
+### Variables
+#### Required
+* **EMAIL**
+  - email address associated with CloudFlare account
+* **ZONEID**
+  - primary zone id for the domain
+* **GLOBAL_API_KEY**
+  - cloudflare api key
+  
+#### Optional
+* **DYNDNSRECORDID**
+  - record id for dynDns update
+* **DYNDNSRECORDNAME**
+  - record name for dynDns update
+* **DYNDNSRECORDTYPE**
+  - record type for dynDns update
