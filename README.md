@@ -1,7 +1,7 @@
 # linux.bash.cloudflare
 A quick and dirty shell script to view and manipulate cloudflare zone records.
 
-Designed to be used on \*NIX systems with minimal support software installed (PERL/PYTHON etc).
+Designed to be used on \*NIX systems with minimal support software installed (No perl, python, php etc).
 
 Primary goal is to impliment a light-weight DYNDNS client with the ability to debug host/zone records.
 
