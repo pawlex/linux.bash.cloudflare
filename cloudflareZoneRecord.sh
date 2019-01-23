@@ -27,8 +27,10 @@ fi
 
 # Load configuration from file if it exists.
 # You may also define your credendials inline (below)
-if [ -e ./config.cf ]; then
-    source ./config.cf
+BASE="$(dirname "$0")"
+
+if [ -e $BASE/config.cf ]; then
+    source $BASE/config.cf
 fi
 
 
