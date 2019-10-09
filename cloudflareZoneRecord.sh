@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ###################################################################
 #Script Name    : cloudflareZoneRecord.sh
 #Description    : A quick and dirty shell script to view and 
